@@ -1,0 +1,141 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*Para dispositivos com width menor que 768px*/
+  
+  /*Para dispositivos com width maior ou igual a 768px*/
+  
+
+
+
+
+
+
+.nav-menu{
+  padding-right: 150px;
+  font-size: 24px;
+}
+.logo-menu{
+  width: 70px; 
+  height: 60px;
+  margin-left: 150px;
+}
+
+.menu-link a{
+  color: white;
+  text-decoration: none;
+}
+.menu-link:hover{
+  font-size: 28px;
+  border-bottom: 1px solid white;
+}
+
+.carousel {
+  border: 1px solid black;
+} 
+
+.botao-card{
+  padding-top: 80px;
+}
+
+
+.rodape-caixa{
+  padding-top: 8px;
+  padding-bottom: none;
+}
+
+.logo-rodape{
+  font-size: 40px;
+  padding-bottom: 15px;
+}
+.texto-rodape{
+  padding-bottom: 5px;
+}
+
+/*pagina contato*/
+.form-1{
+    display: grid;
+    justify-content: center;
+}
+
+.msg-form{
+  font-family: 'Montserrat', sans-serif;
+  margin: 0 auto;
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
+
+.quadrado-form{
+    margin-bottom: 70px;
+  padding: 15px;
+  background-color: rgba(121, 75, 230, 0.199);
+  border-radius: 20px;
+  width: 850px;
+  height: auto;
+}
+
+#nome, #email{
+  margin: 5px 5px;
+  font-family: 'Montserrat', sans-serif;
+  width: auto;
+}
+
+input, textarea, button{
+  border-radius: 7px;
+  border: 1px solid rgba(66, 65, 65, 0.452);
+  width: auto;
+}
+
+#email{
+    margin-bottom: 30px;
+    display: block;
+    margin-left: 6px;
+    width: auto;
+    margin-left: 0px;
+}
+
+#sugestao{
+    padding-top: 20px;
+    font-family: 'Montserrat', sans-serif;
+    padding: none;
+    margin-left: 6px;
+    width: auto;
+    display: block;
+    margin-left: 0px;
+}
+
+#nome{
+  display: block;
+  margin-left: 6px;
+  width: auto;
+  margin-left: 0px;
+}
+
+#enviar{
+    margin-left: 110px;
+    margin-top: 15px;
+    padding: 0px 15px 0px 15px;
+    transition: 1s all;
+    cursor:pointer;
+    width: auto;
+}
+
+#enviar:hover{
+    background-color: rgba(31, 31, 34, 0.192);
+    transform: rotate(360deg) scale(1.5);
+}
+.imgform{
+  display: inline;
+}
+
+.imgform img{
+    width: 500px;
+    height: 500px;
+    float: right;
+}
+
+.conheceu{
+  margin-left: 3px;
+  margin-top: 7px;
+}
